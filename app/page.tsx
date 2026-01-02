@@ -36,10 +36,12 @@ export default function Page() {
         <div className="flex justify-center md:justify-end">
           <div className="relative w-64 h-64 rounded-full border-4 border-purple-500/30 p-2">
             <div className="w-full h-full rounded-full bg-neutral-800 overflow-hidden shadow-[0_0_50px_rgba(168,85,247,0.2)]">
-              {/* Ganti dengan foto kamu nanti */}
-              <div className="w-full h-full flex items-center justify-center text-6xl opacity-20">
-                👤
-              </div>
+              {/* Link foto kamu dipasang di sini */}
+              <img
+                src="https://i.postimg.cc/tRB4WRd6/profil.jpg"
+                alt="Nur Azizah Ulinnuha"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
