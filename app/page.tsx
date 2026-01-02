@@ -75,6 +75,47 @@ export default function Page() {
       <div className="my-8">
         <BlogPosts />
       </div>
+      {/* Portfolio Showcase Header */}
+      <div className="text-center mt-24 mb-12">
+        <h2 className="text-purple-400 text-3xl font-bold mb-2">Portfolio Showcase</h2>
+        <p className="text-sm text-neutral-400">Explore my journey through projects and certifications.</p>
+      </div>
+
+      {/* Tab Buttons (UI Mockup) */}
+      <div className="flex justify-center gap-4 mb-12">
+        <button className="bg-purple-600/20 border border-purple-500 text-purple-400 px-8 py-3 rounded-xl flex items-center gap-2">
+          <span>📂</span> Projects
+        </button>
+        <button className="bg-neutral-900 border border-neutral-800 text-neutral-500 px-8 py-3 rounded-xl hover:border-purple-500/50 transition-all">
+          <span>📜</span> Certificates
+        </button>
+      </div>
+
+      {/* Project Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Project Card 1 */}
+        <div className="group bg-neutral-900 border border-neutral-800 rounded-3xl overflow-hidden hover:border-purple-500/50 transition-all">
+          <div className="aspect-video bg-neutral-800 overflow-hidden">
+            <img
+              src="/utama.png"
+              alt="Project 1"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="text-lg font-bold mb-2">Mobile App Design</h3>
+            <p className="text-sm text-neutral-400 mb-4 line-clamp-2">
+              Redesigning the user experience for a finance tracking application.
+            </p>
+            <div className="flex justify-between items-center text-sm">
+              <span className="text-purple-400">View Demo →</span>
+              <span className="text-neutral-600">UI/UX Design</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Tambahkan Card lain di sini nanti */}
+      </div>
     </section>
   )
 }
