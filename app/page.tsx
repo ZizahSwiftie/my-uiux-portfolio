@@ -17,9 +17,11 @@ export default function Page() {
             Nur Azizah Ulinnuha
           </h1>
           <p className="text-neutral-400 leading-relaxed mb-8">
-            Seorang desainer UI/UX yang berfokus pada menciptakan pengalaman digital
-            yang menarik dan fungsional. Saya senang memecahkan masalah kompleks
-            melalui desain yang berpusat pada manusia.
+            A creative problem solver specializing in
+            crafting user-centered digital experiences.
+            I believe that great design is not just about how it looks,
+            but more importantly, about how it works and feels
+            for the human on the other side of the screen.
           </p>
 
           <div className="flex gap-4">
