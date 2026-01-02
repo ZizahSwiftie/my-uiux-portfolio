@@ -36,11 +36,11 @@ export default function Page() {
         <div className="flex justify-center md:justify-end">
           <div className="relative w-64 h-64 rounded-full border-4 border-purple-500/30 p-2">
             <div className="w-full h-full rounded-full bg-neutral-800 overflow-hidden shadow-[0_0_50px_rgba(168,85,247,0.2)]">
-              https://i.postimg.cc/1RvDXQ8x/pp.jpg
+              https://i.postimg.cc/YC9n0Rr4/profile.jpg
               <img
-                src="https://i.postimg.cc/1RvDXQ8x/pp.jpg"
+                src="https://i.postimg.cc/YC9n0Rr4/profile.jpg"
                 alt="Nur Azizah Ulinnuha"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
               />
             </div>
           </div>
