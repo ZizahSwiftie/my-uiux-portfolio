@@ -118,6 +118,43 @@ export default function Page() {
 
         {/* Tambahkan Card lain di sini nanti */}
       </div>
+      {/* Certificates Section */}
+      <div className="mt-24 mb-12">
+        <div className="flex items-center gap-4 mb-8">
+          <h3 className="text-xl font-bold">Licenses & Certifications</h3>
+          <div className="h-[1px] flex-1 bg-neutral-800"></div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Certificate Card 1 */}
+          <div className="group bg-neutral-900/50 border border-neutral-800 p-5 rounded-2xl flex items-center gap-4 hover:border-purple-500/50 transition-all cursor-pointer">
+            <div className="w-12 h-12 bg-purple-600/10 rounded-xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              📜
+            </div>
+            <div className="flex-1">
+              <h4 className="font-bold text-sm md:text-base">Google UX Design Professional Certificate</h4>
+              <p className="text-xs text-neutral-500">Coursera • Issued 2024</p>
+            </div>
+            <div className="text-neutral-600 group-hover:text-purple-400 transition-colors">
+              <span className="text-xs">Show credential ↗</span>
+            </div>
+          </div>
+
+          {/* Certificate Card 2 */}
+          <div className="group bg-neutral-900/50 border border-neutral-800 p-5 rounded-2xl flex items-center gap-4 hover:border-purple-500/50 transition-all cursor-pointer">
+            <div className="w-12 h-12 bg-purple-600/10 rounded-xl flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              🏆
+            </div>
+            <div className="flex-1">
+              <h4 className="font-bold text-sm md:text-base">Junior UI/UX Designer</h4>
+              <p className="text-xs text-neutral-500">Digitalent Kominfo • 2024</p>
+            </div>
+            <div className="text-neutral-600 group-hover:text-purple-400 transition-colors">
+              <span className="text-xs">Show credential ↗</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
